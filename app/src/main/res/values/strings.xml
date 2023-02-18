@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DATA MAHASISWA</string>
+    <string name="judul">Form Data Mahasiswa</string>
+    <string name="form_nama">Masukkan Nama Lengkap</string>
+    <string name="form_NPM">Masukkan NPM</string>
+    <string name="from_jurusan">Jurusan</string>
+    <string name="tombol_simpan">Simpan</string>
+
+</resources>

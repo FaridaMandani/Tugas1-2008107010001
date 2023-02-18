@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"gg
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@mipmap/ic_launcher">
+
+
+
+    <!--Judul-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Form Data Mahasiswa"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/manda1"
+
+        />
+
+    <!--Nama Lengkap-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Lengkap"
+        android:ems="15"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/manda1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/manda2"
+        />
+
+    <!--NPM-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan NPM"
+        android:ems="15"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"
+        android:layout_below="@+id/manda2"
+        android:layout_marginTop="15dp"
+        android:id="@+id/manda3"
+        />
+
+    <!--Jurusan-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Jurusan"
+        android:ems="15"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:layout_below="@+id/manda3"
+        android:layout_marginTop="15dp"
+        android:id="@+id/manda4"
+        />
+
+    <Button
+        android:text="Simpan"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/manda4"
+
+</RelativeLayout>
